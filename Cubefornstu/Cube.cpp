@@ -18,8 +18,8 @@ void display() {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	glTranslatef(-0.5f, 0.0f, -5.0f);
-	glRotatef(angleForCubeRotate, 1.0f, 1.0f, 1.0f);
+	glTranslatef(-0.5f, 0.0f, -7.0f);
+	glRotatef(angleForCubeRotate, 1.0f, 1.0f, 0.0f);
 	glBegin(GL_QUADS);
 	glColor3f(0.0f, 0.0f, 0.0f);		// Select your own color
 	glVertex3f(1.0f, 1.0f, -1.0f);
